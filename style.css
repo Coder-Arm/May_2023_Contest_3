@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ruda", sans-serif;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+header a {
+  text-decoration: none;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+  background-color: black;
+}
+.nav-left h3 {
+  font-weight: 800;
+}
+.nav-mid,
+.nav-right {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-mid {
+  width: 45%;
+}
+.nav-mid > a {
+  text-transform: uppercase;
+}
+.nav-right {
+  align-items: center;
+  width: 10%;
+  justify-content: space-between;
+}
+
+/*         header  end         */
+main,
+footer {
+  background-color: black;
+}
+#home {
+  height: 100vh;
+  background-image: url(./img/pizza\ bg\ img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.home-content {
+  position: absolute;
+  width: 40vw;
+  top: 8rem;
+  left: 8rem;
+}
+#home h2 {
+  font-family: Quattrocento;
+  letter-spacing: 8px;
+  font-size: 4em;
+}
+#home .underline {
+  margin-top: 2rem;
+  background-color: #f24c4c;
+  width: 70%;
+  height: 0.4rem;
+}
+#home p {
+  margin-top: 2rem;
+  width: 70%;
+}
+/*    about section end    */
+#about,
+#menu,
+#find {
+  padding: 5rem;
+}
+.text-center {
+  font-size: 42px;
+  text-align: center;
+}
+.next_underline {
+  width: 30%;
+  height: 0.4rem;
+  margin: 1rem auto;
+  background-color: #b62828;
+}
+.about-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+.about-content > .left {
+  width: 40%;
+}
+.about-content > .right {
+  width: 35%;
+}
+.about-content img {
+  width: 100%;
+}
+.para_upperline {
+  margin-bottom: 1rem;
+  width: 70%;
+  height: 0.2rem;
+  background-color: #f24c4c;
+}
+/*         about section end       */
+.para-text-center {
+  margin-top: 2rem;
+  text-align: center;
+}
+.menu-container {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 3rem;
+}
+.menu-container > div {
+  display: flex;
+}
+.menu-container img {
+  width: 40%;
+}
+.menu-container .content {
+  padding: 0.5rem 1rem;
+}
+.menu-container h4 {
+  margin-bottom: 0.8rem;
+  color: #f2c94c;
+}
+.menu-container p {
+  width: 90%;
+}
+/*   menu section end */
+.find-content {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.find-content > .left {
+  width: 30%;
+}
+.find-content > .right {
+  width: 30%;
+}
+.find-content img {
+  width: 100%;
+}
+.address {
+  margin-top: 2rem;
+}
+.contact {
+  margin-top: 1rem;
+}
+.address,
+.contact {
+  display: flex;
+  align-items: center;
+  column-gap: 3rem;
+}
+.find-content i,
+footer i {
+  font-size: 2em;
+}
+/*   find section end   */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 5rem 2rem 5rem;
+}
+.footer-left {
+  width: 20%;
+}
+.footer-left > img {
+  width: 100%;
+}
