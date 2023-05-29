@@ -151,10 +151,11 @@ footer {
   width: 30%;
 }
 .find-content > .right {
-  width: 30%;
+  width: 35%;
 }
-.find-content img {
+.find-content iframe {
   width: 100%;
+  height: 50vh;
 }
 .address {
   margin-top: 2rem;
